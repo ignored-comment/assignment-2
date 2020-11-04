@@ -1,0 +1,35 @@
+.sidenav {
+    height: 100%;
+    width: 375px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(225, 225, 225);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+  }
+
+  .blog {
+      margin: 25px 400px;
+  }
+
+  .resources {
+      margin: 50px 400px;
+  }
