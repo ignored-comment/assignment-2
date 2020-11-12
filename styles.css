@@ -1,12 +1,10 @@
 .sidenav {
     height: 100%;
-    width: 375px;
+    width: 175px;
     position: fixed;
-    z-index: 1;
     top: 0;
     left: 0;
     background-color: rgb(225, 225, 225);
-    overflow-x: hidden;
     padding-top: 20px;
   }
   
@@ -17,19 +15,20 @@
     color: #000000;
     display: block;
   }
-  
+
   .sidenav a:hover {
     color: #f1f1f1;
   }
   
   .main {
-    margin-left: 200px; /* Same as the width of the sidenav */
+    margin-left: 215px;
+    padding-right: 50px;
   }
 
-  .blog {
-      margin: 25px 400px;
+  .sidenav_photo {
+    padding-left: 18px;
   }
 
-  .resources {
-      margin: 50px 400px;
+  body {
+    background-color: #FFFAF9
   }
