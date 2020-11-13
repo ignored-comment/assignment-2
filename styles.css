@@ -13,16 +13,30 @@
     text-decoration: none;
     font-size: 25px;
     color: #000000;
-    display: block;
+    display: block
   }
 
   .sidenav a:hover {
     color: #f1f1f1;
   }
+
+  .main1 {
+    display: flex;
+    padding-left: 25px;
+    max-width: 800px;
+  }
+
+  .main2 {
+    display: flex;
+    padding-left: 25px;
+    max-width: 500px;
+  }
   
-  .main {
-    margin-left: 215px;
-    padding-right: 50px;
+  .item {
+    margin-left: 175px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: stretch;
   }
 
   .sidenav_photo {
@@ -31,4 +45,9 @@
 
   body {
     background-color: #FFFAF9
+  }
+
+  p, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 0px;
   }
